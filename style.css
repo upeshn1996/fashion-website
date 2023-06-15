@@ -1,0 +1,15 @@
+
+b{
+    color: rgb(6, 247, 10);
+}
+.container .card{
+   margin-left: 40px;
+}
+.text{
+    font-size: 10px;
+    text-align: center;
+}
+.text B{
+    color: rgb(196, 5, 5);
+    font-style: italic;
+}

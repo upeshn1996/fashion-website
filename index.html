@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion store</title>
+<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar navbar-expand-sm  bg-danger fixed-top">
+        <div class="container-fluid ">
+          <a class="navbar-brand fw-bold text-info" href="#">Fashion Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active  text-info fw-bold" aria-current="page" href="#carouselExampleSlidesOnly">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-info fw-bold" href="#offer">Product</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-info  fw-bold" id="price" href="#offer" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Offer Zone
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item  text-info fw-bold" href="#offer">Damakka</a></li>
+                  <li><a class="dropdown-item  text-info fw-bold" href="#">Big billion</a></li>
+                  <li><hr class="dropdown-divider  text-info fw-bold"></li>
+                  <li><a class="dropdown-item  text-info fw-bold" href="#">Devali sale</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-info "href="#info">Contact info</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark bg-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="head">
+            <img src="1685119034944.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="maxresdefault.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Myntra-End-of-Reason-Sale-Offers-2021-blog.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    <!-- card -->
+    <div class="container" id="offer">
+        <div class="row my-4">
+            <h1 class="offer text-center fw-bold my-5">Shirt <b>50%</b>Offer Damaka</h1>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="81mS4-rhENL._AC_UY1100_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">VTEX<br> 
+                        Men Regular Fit Checkered Spread Collar Casual Shirt</h5>
+                        <p>Rs 699/- <b>50% off</b></p>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="225H041_NOCOLOUR_1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">HERE&NOW <br>
+                        Men Slim Fit Solid Casual men fhs </h5>
+                       <p>Rs 799/- <b>50% off</b></p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="263G566_NOCOLOUR_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">LEE <br>
+                        Men Slim Fit Striped Button Down Collar Casual Shirt</h5>
+                      <p>Rs 1549/- <b>50% off</b></p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="2898082.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">HIGHLANDER <br>
+                        Men Slim Fit Printed Spread Collar Casual Shirt</h5>
+                     <p>Rs 499/- <b>50% off</b></p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="e68f6689-a47e-4982-9f5e-d2c9009ec477.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Allen Solly<br> 
+                        Men Slim Fit Checkered Casual Shirt</h5>
+                        <p>Rs 1399/- <b>50% off</b></p>
+                      
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="1I522010_NOCOLOUR_1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">JACK & JONES <br>
+                        Men Regular Fit Checkered Casual Shirt</h5>
+                      <p>Rs 679/- <b>50% off</b></p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="225H041_NOCOLOUR_1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">KILLER <br>
+                        Men Slim Fit Checkered Spread Collar Casual Shirt</h5>
+                        <p>Rs 999/- <b>50% off</b></p>
+                      
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="225H940_NOCOLOUR_1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">LEVI'S <br>
+                        Men Slim Fit Checkered Spread Collar Casual Shirt</h5>
+                        <p>Rs 1099/- <b>50% off</b></p>
+                     
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="225H986_NOCOLOUR_1.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">PARK AVENUE 
+                        Men Slim Fit Solid Casual Shirt fit dfg gbhf</h5>
+                        <p>Rs 1099/- <b>50% off</b></p>
+                
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer text-white bg-dark" id="info">
+        <div class="row">
+            <div class="col-sm-4 ">
+<p>Contact Us</p>
+    <p>About Us</p>
+    <p>Careers</p>
+     <p>f Stories</p>
+    <p>Press</p>
+    <p>Wholesale</p>
+    <p>Corporate Information</p>
+    
+            </div>
+        </div>
+    </div>
+    <div class="text">Design by <b>Upesh N</b></div>
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="/js/bootstrap.js"></script>
+</body>
+</html>
